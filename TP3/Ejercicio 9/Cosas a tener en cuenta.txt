@@ -1,0 +1,6 @@
+Primero escribir la actividad con su respectivo horario y seleccioinar boton cargar actividades,
+ luego tocar boton ver y cargar lista si lo que desea es ver lo que posee la lista
+ordenada. Si quires cargar mas actividades utilizar nuevamente boton cargar actividades.
+Para buscar un horario especifico seleccione la hora en 'Buscar por hora' y luego el boton buscar.
+Si desea saber el porcentaje de horas trabajadas totales, toque el boton porcentaje horas.
+Si de antemano no cargo las actividades, ninguno boton funcionara al no tener valores validos.

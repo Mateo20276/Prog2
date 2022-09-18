@@ -1,0 +1,2 @@
+Ejercicio 5: O(n^2) -> Tiene un bucle while y un for anidados que dependen de los inputs
+Ejercicio 6: O(n^2) -> Tiene dos bucles for anidados que dependen de los inputs

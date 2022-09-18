@@ -1,0 +1,16 @@
+program Project5;
+
+uses
+  Vcl.Forms,
+  Unit4 in 'Unit4.pas' {Form4},
+  ListArray in 'ListArray.pas',
+  Unit_tipos in 'Unit_tipos.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm4, Form4);
+  Application.Run;
+end.

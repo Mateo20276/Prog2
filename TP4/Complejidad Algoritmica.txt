@@ -1,0 +1,3 @@
+Ejercicio 7: O(n)       -> recorre linealmente la cadena con un while
+Ejercicio 8: O(n)       
+Ejercicio 9: O(logb(n)) -> cantidad de divisiones = dígitosOutput-1 (el resultado del logaritmo)

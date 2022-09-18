@@ -1,0 +1,16 @@
+﻿[Memo1]
+Coordinates=10,10,64,58
+
+[editNumber1]
+Coordinates=153,10,88,58
+Visible=True
+
+[]
+Coordinates=209,1,91,36
+
+[editNumber2]
+Coordinates=10,78,44,58
+
+[buttonEjecutar]
+Coordinates=84,10,59,58
+

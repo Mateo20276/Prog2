@@ -1,0 +1,29 @@
+CASOS DE PRUEBA
+
+Un solo pago:
+- si la tarjeta=Visa OR tarjeta=American Express -> descuenta el 80% del limite
+- en el resto de las tarjetas se descuenta el 100% del monto
+
+2 o mas cuotas:
+- si cuotas <= 6
+	descuenta 90% del limite de compras en cuotas
+	descuenta 100% del limite de compra en 1 pago
+
+- si cuotas > 6
+	descuenta 70% del limite de compras en cuotas
+	descuenta 100% del limite de compra en 1 pago
+
+Monto = 100
+Limite una cuota = 
+Limite multiples cuotas = 
+
+1 cuota = 10
+9 cuotas = 90
+90*0.7 =
+
+
+TARJETAS
+Visa: 4338517897850184
+Mastercard: 5399076060220066, 2224000000000006
+American Express: 3707225681705433
+Maestro: 570510387113
