@@ -52,6 +52,8 @@ ArbolBB = Object
  Procedure SetRoot(R:PosicionArbol);
  Procedure ConectarHI(P:PosicionArbol; Q:PosicionArbol);
  Procedure ConectarHD(P:PosicionArbol; Q:PosicionArbol);
+ function AlturaDeNodo(A:ArbolBB; P: PosicionArbol): Integer;
+var
  End;
 implementation
 // Crea el Arbol Vacio
@@ -480,4 +482,41 @@ Begin
  P^.HD := Q;
  If Q <> Nulo Then Q_Items := Q_Items + ContarNodos(Q);;
 End;
+
+function ArbolBB.AlturaDeNodo(A:ArbolBB; P: PosicionArbol): Integer;
+var nivelhoja, alturarama, nivelposarbol: Integer;
+    booleano: boolean;
+    procedure recursiva(pa: posicionarbol);
+    begin
+
+    If RamaNula(P) then
+      begin
+
+      if (P = pa)then
+        begin
+          booleano:= true;
+          nivelposarbol:= nivel(p);
+        end;
+
+        if (pa.HI = Nulo) and (pa.HD = Nulo) and booleano then
+        begin
+          nivelhoja:= nivel(pa);
+          if alturarama < (nivelhoja - nivelposarbol)  then
+          alturarama:= (nivelhoja - nivelposarbol);
+        end;
+
+        recursiva(P^.HI);
+        recursiva(P^.HD);
+        if (P = pa) then  booleano:= false;
+      end;
+    end;
+
+begin
+  nivelhoja:= 0;
+  alturarama:= 0;
+  booleano:= False;
+  recursiva(ArbolBB.root);
+  AlturaDeNodo:= alturarama + 1;
+
+end;
 End.
